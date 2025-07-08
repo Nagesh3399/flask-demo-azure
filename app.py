@@ -3,7 +3,9 @@ import os
 import pandas as pd 
 from preprocess import preprocess_data  
 from load_model import loaded_models  # Assuming this is the correct import path for your models
+
 app = Flask(__name__)
+
 app.secret_key = 'sdh swhcaskc askcoasclaksc '  # use a strong, random string
 
 # Dummy credentials
